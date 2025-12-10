@@ -6,8 +6,24 @@ Please help me analyze the following argument using the method of *standardizing
 2. **Remove irrelevant content**:  
    Omit any information that is redundant, rhetorical, or not logically relevant to the reasoning.
 
-3. **Number and order the statements logically**:  
-   Assign a number to each premise and conclusion, listing them in the order that reflects their logical dependency—placing supporting premises before the conclusions they are meant to support.
+3. **Number and order the statements logically, then visualize the structure**:  
+Assign a number to each premise, subconclusion, and main conclusion, listing them in a sequence that reflects their logical order—placing supporting statements *before* the conclusions they support.  
+
+Then, create a simple **ASCII flowchart** beneath the numbered list to illustrate how the statements connect. Use arrows (`-->`) or branching structures to show which premises lead to which conclusions. For example:
+
+```
+1. All humans are mortal.  
+2. Socrates is a human.  
+3. Therefore, Socrates is mortal. (from 1, 2)
+
+Flowchart:
+1 -->\
+      +--> 3
+2 -->/
+```
+
+The goal is to make the inferential pathways clear at a glance, especially in complex arguments with multiple subconclusions.
+
 
 4. **Supply missing elements**:  
    Add any unstated but essential premises or conclusions that are necessary for the argument to hold together logically (often called “implicit assumptions”).
